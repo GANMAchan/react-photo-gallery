@@ -24,7 +24,7 @@ class Header extends React.Component{
       <div>
         <Navbar fixed="top" color="dark" dark>
          <Container>
-          <NavbarBrand href="/" className="mr-auto">Photo Gallery</NavbarBrand>
+          <NavbarBrand href="https://github.com/koramen/react-photo-gallery/settings" className="mr-auto">Photo Gallery</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
