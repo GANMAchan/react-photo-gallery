@@ -19,10 +19,13 @@ class Header extends React.Component{
     });
   }
 
+  //Reactstrap コンポーネントのドキュメントの NavbarToggler の部分を参考にヘッダー作成
   render(){
     return(
       <div>
+        {/*Navbarを上部に固定し色を暗く*/}
         <Navbar fixed="top" color="dark" dark>
+        {/*左右に空白を作るためNavbar全体をContainerコンポーネントで囲む*/}
          <Container>
           <NavbarBrand href="https://koramen.github.io/react-photo-gallery/" className="mr-auto">Photo Gallery</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
