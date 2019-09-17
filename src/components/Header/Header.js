@@ -27,7 +27,7 @@ class Header extends React.Component{
         <Navbar fixed="top" color="dark" dark>
         {/*左右に空白を作るためNavbar全体をContainerコンポーネントで囲む*/}
          <Container>
-          <NavbarBrand href="https://koramen.github.io/react-photo-gallery/" className="mr-auto">Photo Gallery</NavbarBrand>
+          <NavbarBrand href="https://kaitoohmura.github.io/react-photo-gallery/" className="mr-auto">Photo Gallery</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>

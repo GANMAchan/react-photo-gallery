@@ -8,7 +8,7 @@ const Home = ({onRouteChange}) =>{
      {/*カスタムCSSのクラスを加える*/}
      <Container className="text-center text-white">
       <h1>テスト</h1>
-      <p>ああああああああああああああ</p>
+      <p>テスト</p>
       {/*ボタンのCSS指定*/}
       {/*onClickでonRouteChangeを読んで因数としてgalleryを渡す*/}
       <Button
